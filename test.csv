@@ -1,0 +1,9 @@
+NAME,SUBSCRIPTION,RESOURCE GROUP,LOCATION,SIZE,DISKS,STATUS,OPERATING SYSTEM,PRIVATE IP ADDRESS,PUBLIC IP ADDRESS,SUBNET,VIRTUAL NETWORK,NETWORK INTERFACES,
+"foo1","Sub Foo","group-a","Region 1","Standard_Size_A","2","Running","Windows","192.168.0.1","-","subnet-mldata-a-prod-central","vnet-mldata-prod-central","1"
+"foo2","Sub Foo","group-a","Region 1","Standard_Size_A","2","Running","Windows","192.168.0.2","-","Subnet-DBA-Prod-SC","vnet-infranet-prod-southcentral","1"
+"foo3","Sub Foo","group-b","Region 2","Standard_Size_A","1","Running","Windows","192.168.0.3","-","Subnet-InfraNet-Prod-Admin-C","vnet-infranet-prod-central","1"
+"foo4","Sub Foo","group-b","Region 3","Standard_Size_A","1","Running","Windows","192.168.0.4","-","Subnet-InfraNet-Prod-Admin-SC","vnet-infranet-prod-southcentral","1"
+"bar1","Sub Bar","group-c","Region 3","Standard_Size_B","3","Running","Linux","192.168.0.5","-","Subnet-OL-LP-Demo-SC","vnet-infranet-demo-southcentral","1"
+"bar2","Sub Bar","group-c","Region 4","Standard_Size_B","1","Running","Linux","192.168.0.6","-","Subnet-OL-LP-Demo-SC","vnet-infranet-demo-southcentral","1"
+"bar3","Sub Bar","group-c","Region 4","Standard_Size_B","1","Running","Linux","192.168.0.7","-","Subnet-OL-LP-Demo-SC","vnet-infranet-demo-southcentral","1"
+"bar4","Sub Bar","group-c","Region 4","Standard_Size_B","1","Running","Linux","192.168.0.8","-","Subnet-OL-LP-Demo-SC","vnet-infranet-demo-southcentral","1"
