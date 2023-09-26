@@ -11,7 +11,7 @@ do
     # echo "Scanning $server..."
     echo "Results for: $server" >> mysql_results.txt
     # grab the certificate information from the server.
-    openssl s_client -timeout -starttls mysql -connect "$server:3306" | openssl x509 -noout -issuer -subject -dates >> mysql_results.txt 2>&1
+    openssl s_client -timeout -starttls mysql -connect "$server:3306" | openssl x509 -noout -issuer -dates >> mysql_results.txt 2>&1
     # this will still print some information to the console, but it shouldn't matter
 done
 # echo 'done!'
